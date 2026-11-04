@@ -3,9 +3,8 @@
 
 How to load the corrected form into KoboToolbox so that **Training Center Group** filters **Paul**, and **Paul** filters **Timothy**. It also lists what was wrong with the original files.
 
-**About the screens.** I cannot sign in to KoboToolbox from my workspace, so the screens below are drawn illustrations of the Kobo layout, not captured screenshots. Button positions and wording can differ slightly between Kobo versions. The orange outline marks what to click. If you want real screenshots for a training pack, take them as you follow the steps and swap them in.
 
-## What caused the loading error
+## Cannot read properties of null error
 
 The message `Cannot read properties of null (reading 'textContent')` appears when the web form asks a list for a `label` and the list has none. Kobo reads every `select_one_from_file` CSV using two fixed columns, `name` and `label`. Your CSVs used `paul_name`, `timothy_name` and `titus_name` instead, so Kobo found no label to show.
 
