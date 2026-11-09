@@ -1,12 +1,7 @@
 # Project Objectives <span class="mark">(make them SMART)</span>
-
-- 
 - Capture institution (church) data
-
 - Publish to GIS portal (iShare + QGIS)
-
 - Reports to Pauls, NLT, RLT and any other team
-
 - Review church planting progress in Kenya
 
 # Governance Structure & Responsibilities 
